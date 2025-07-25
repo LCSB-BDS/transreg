@@ -25,7 +25,7 @@ jobs:
 
       - uses: r-lib/actions/setup-r-dependencies@v2
         with:
-          extra-packages: any::rcmdcheck, fwelnet=?ignore
+          extra-packages: any::rcmdcheck, fwelnet=?ignore, ecpc=?ignore
           needs: check
 
 #      - name: Install GitHub

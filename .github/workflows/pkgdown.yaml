@@ -40,6 +40,7 @@ jobs:
 
       - name: Install GitHub
         run: remotes::install_github("kjytay/fwelnet")
+        run: remotes::install_github("Mirrelijn/ecpc")
         shell: Rscript {0}
 
       - name: Build site
